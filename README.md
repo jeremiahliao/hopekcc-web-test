@@ -6,7 +6,7 @@
 
 1. In a directory outside of the Apache server, set up a Git Repository.
 2. Create a symbolic link inside the web server linking to this repository
-`code` ln -s *path* *linkname*
+`code ln -s *path* *linkname*`
 3. Make sure that the user running the Apache Web Server (found in httpd.cnf) can access the repository
 4. To access files in the repository, enter the path from the webserver locating that file on the browser
 
