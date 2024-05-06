@@ -1,7 +1,7 @@
 <?php
 
 function gitPull() {
-    exec('./pull-from-git.sh',$output, $retval);
+    exec('../utilities/pull-from-git.sh',$output, $retval);
 
     echo "<div>";
     echo "<h4>Returned with status $retval and output:</h4>";
